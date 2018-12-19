@@ -1,0 +1,570 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+::-moz-placeholder { 
+    color: black;
+    opacity: 1 !important;
+}
+
+#page_content {
+	position: relative;
+	margin: 0 auto;
+	width: 1237px;
+	display: block;
+}
+#primary_navigation {
+	width: 1237px;
+	height: 100px;
+	background-color: #FFFFFF;
+	/*background-color: grey;*/
+}
+
+li > a {
+	text-decoration: none;
+	color: #86878A;
+}
+
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline;
+	padding-left: 21px;
+}
+
+li:hover {
+	color: black;
+}
+
+#left_nav, #right_nav, #signup_form, #subscription_charges, #ceo_message {
+	font-family: helvetica;
+}
+
+.container > .content {
+	font-family: verdana;
+}
+
+
+#app_promotion, #social_medias {
+	font-family: Yu Gothic;
+}
+
+#left_nav {
+	position: absolute;
+	top: 30px;
+	left: 83px;
+	font-size: 14px;
+}
+
+#right_nav {
+	float: right;
+	position: relative;
+	right: 168px;
+	color: #86878A;
+	top: 32px;
+	font-size: 12px;
+}
+
+/*#lawyer_image {
+	object-fit: cover;
+	clip-path: inset(0px 71px 0px 43px);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 1349px;
+	height: 853px;
+}*/
+
+#lawyer_section {
+	width: 1237px;
+	height: 628px;
+	clear: both;
+}
+
+#lawyer_section > #lawyer_image {
+	background-image: url("lawyer.jpg");
+	/*object-fit: cover;*/
+	/*position: relative;*/
+	/*background-position: 40px 0 -40px 0;*/
+	/*clip: rect(0, 100px, 0, 0);*/
+	background-repeat: no-repeat;
+	clip-path: inset(0px 0px 0px 40px);
+	/*display: block;*/
+	/*float: left;*/
+	background-size: 106% 100%;
+	width: 1277px;
+	height: 628px;
+	clear: both;
+	position: absolute;
+	transform: translate(-51.7%, 0%);
+	left: 50%;
+	right: 57%;
+	/*margin-top: -63px;*/
+}
+
+#signup_form {
+	background-color: #093B5E;
+	width: 371px;
+	height: 380px;
+	position: relative;
+	left: 79px;
+	top: 123px;
+	/*margin-left: 100px;
+	margin-top: 170px;*/
+
+}
+
+#signup_form > p {
+	color: white;
+	/*left: 49px;*/
+}
+
+
+#signup_form #third_line {
+	color: #FBDF00;
+}
+
+#first_line {
+	position: relative;
+	left: 41px;
+	top: 40px;
+	font-size: 11px;
+}
+
+#second_line {
+	position: relative;
+	left: 40px;
+	top: 9px;
+	font-size: 30px;
+}
+
+#third_line {
+	position: relative;
+	left: 41px;
+	top: -15px;
+	font-style: italic;
+	font-size: 12px;
+}
+
+
+#signup_username {
+	width: 266px;
+	position: relative;
+	height: 40px;
+	left: 41px;
+	top: -10px;
+}
+
+#signup_button {
+	display: inline-block;
+	/*box-sizing: border-box;*/
+	text-align: center;
+	height: 40px;
+	background-color: #FBDF00;
+	border: none;
+	position: relative;
+	top: 9px;
+	left: 41px;
+	width: 150px;
+}
+
+#signup_button:hover {
+	background-color: black;
+	color: white;
+}
+
+#features {
+	width: 1237px;
+	height: 320px;
+	display: flex;
+	/*margin: auto;*/
+	clear: both;
+	/*background-color: grey;*/
+
+}
+
+#features > div {
+	width: 31%;
+	height: 257px;
+	padding-top: 85px;
+}
+
+#features > div > p {
+	width: 90%;
+}
+
+.feature_type {
+	font-size: 15px;
+}
+.container {
+    /*margin-left: 50px;
+    margin-right: 50px;*/
+    font-family: verdana;
+    position: relative;
+	left: 13px;
+	padding-left: 67px;
+}
+
+.container > .content {
+	color: #86878A;
+	font-size: 11px;
+}
+
+#ceo_message {
+	width: 1237px;
+	height: 200px;
+	background-color: #F4F5F4;
+	margin-top: -16px;
+	/*background-color: grey;*/
+
+}
+
+#message {
+	position: relative;
+	top: 60px;
+	padding-left: 340px;
+	font-size: 15px;
+	/*left: 20px;*/
+}
+
+#ceo_message > b {
+	position: relative;
+	top: 50px;
+	padding-left: 551px;
+	font-size: 10px;
+}
+
+#signature {
+	color: #86878A;
+    position: relative;
+    top: 24px;
+    padding-left: 598px;
+    font-size: 11px
+}
+
+#subscription_charges {
+	width: 1237px;
+	height: 700px;
+	margin-top: -22px;
+}
+
+#subscription_charges > #background_glass_image  {
+	background-image: url("glasses.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*object-fit: cover;*/
+	background-attachment: fixed;
+	background-position: top;
+	/*background: linear-gradient(to top, rgba(220, 220, 220, 0.2) );*/
+	/*-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;*/
+	width: 1237px;
+	height: 700px;
+	/*display: flex;*/
+	opacity: 0.2;
+	position: absolute;
+	background-size: 150% 192%;
+	/*background:linear-gradient(rgba(97, 98 ,116 , .2), rgba(97, 98 ,116 , .2))*/
+	/*background-color: grey;*/
+
+}
+
+
+
+
+#subscription_charges > h5, #foreground_ > h5 {
+	position: relative;
+	top: 50px;
+	/*left: 45%;*/
+	text-align: center;
+
+}
+
+#subscription_charges > p, #foreground_ > p {
+    /*position: relative;*/
+    /*top: 80px;*/
+    /*width: 300px;*/
+    /*height: 20px;*/
+    /*font-size: 13px;*/
+    /*left: 479px;*/
+    /*text-align: center;*/
+
+    position: relative;
+	top: 36px;
+	font-size: 13px;
+	text-align: center;
+	font-size: 12px;
+}
+
+/*#subscription_charges > div {
+	width: 35%;
+	height: 430px;
+	/*padding-top: 100px;*/
+	/*position: relative;*/
+	/*top: 150px;*/
+	/*left: -140px;*/
+    /*margin-right: 46px;*/
+    /*background-color: rgba(0,0,0,0.4);*/
+    /*z-index:9999;*/
+/*}*/*/
+
+
+#foreground_ > div {
+	width: 35%;
+	height: 430px;
+	/*padding-top: 100px;*/
+	position: relative;
+	top: 150px;
+	left: -140px;
+    margin-right: 46px;
+    z-index:9999;
+}
+
+/*#subscription_charges > img {
+	position: absolute;
+	z-index: 0;
+	max-height: 100%
+	max-width: 1349px;
+}*/
+
+/*#subscription_overlay {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	background-color: rgb(119, 159, 244, 0.3);
+}*/
+
+#basic_plan, #standard_plan, #corporate_plan {
+	/*background-image: url("grid.png");*/
+	background-color: white;
+	/*background-size: cover;*/
+	z-index: 9999;
+	width: 300px;
+	display: inline-block;
+	margin-left: 81px;
+	position: relative;
+	height: 441px;
+	top: 101px;
+}
+
+#basic_plan > img , #standard_plan > img , #corporate_plan > img{
+	width: 300px;
+	display: inline-block;
+	height: 441px;
+	background-size: cover;
+	position: absolute;
+	opacity: 0.2;
+}
+
+.plan_description {
+	background-color: white;
+	z-index: -1;
+	width: 300px;
+	display: inline-block;
+	position: relative;
+	height: 441px;
+	background-size: cover;
+	position: absolute;
+}
+
+.plan_title {
+	position: relative;
+	top: 20px;
+	text-align: center;
+	font-size: 18px;
+	/*margin: auto;*/
+}
+
+.plan_content {
+	position: relative;
+	top: 40px;
+	text-align: center;
+	font-size: 15px;
+	/*margin: auto;*/
+}
+
+.plan_price {
+	position: relative;
+	top: 55px;
+	text-align: center;
+	font-size: 23px;
+}
+
+.plan_type {
+	position: relative;
+	top: 35px;
+	text-align: center;
+	font-size: 19px;
+}
+
+.buy_plan {
+	position: relative;
+	top: 37px;
+	text-align: center;
+	left: 86px;
+	width: 126px;
+	height: 38px;
+	color: white;
+	background-color: #093B5E;
+	border: none;
+}
+
+.buy_plan:hover {
+	background-color: black;
+}
+
+#app_promotion {
+	width: 1237px;
+	height: 500px;
+	background-image: url("notebook.jpg");
+	background-repeat: no-repeat;
+	/*clip-path: inset(60px 80px);*/
+	position: relative;
+	margin-top: 188px;
+	background-size: 1237px 540px;
+	text-align: center;
+	/*clip-path: inset(0px 71px 0px 43px);*/
+
+	/*background-position: 40px 0 -40px 0;*/
+	/*background-size: 100% 100%;*/
+	/*background-position: center;*/
+	/*background-color: rgb(119, 159, 244, 0.3);*/
+	/*z-index: 50;*/
+	/*background-color: blue;*/
+}
+
+#app_promotion > h5 {
+	position: relative;
+	top: 219px;
+	/*padding-left: 412px;*/
+	color: white;
+	font-size: 23px;
+	text-align: center;
+}
+
+#app_promotion > p {
+	position: relative;
+	top: 176px;
+	/*padding-left: 422px;*/
+	color: white;
+	font-size: 12px;
+	text-align: center;
+}
+
+#app_promotion > button {
+	box-sizing: border-box;
+    text-align: center;
+    height: 38px;
+    background-color: #FBDF00;
+    border: none;
+    position: relative;
+	top: 187px;
+	/*left: 507px;*/
+    width: 168px;
+}
+
+#app_promotion > button:hover {
+	background-color: black;
+	color: white;
+}
+
+#overlay_add {
+	width: 1237px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(47, 85, 112, 0.8);
+}
+
+#social_medias {
+	width: 1237px;
+	height: 200px;
+	/*display: flex;*/
+	background-color: #1C252F;
+	text-align: center;
+	margin-top: -22px;
+}
+
+/*#social_medias > div {
+	width: 30px;
+	height: 25px;
+	top: 160px;
+	right: 12%;
+	padding-left: 40px;
+	position: relative;
+}*/
+
+ /*img {
+  display: inline-block;
+  vertical-align: middle;
+  max-height: 100%;
+  max-width: 1349px;
+}*/
+
+#social_medias > div {
+	/*width: 5px;
+	height: 25px;*/
+	top: 60px;
+	right: 1%;
+	padding-left: 31px;
+	display: inline;
+	/*margin-top: 77px;*/
+	position: relative;
+}
+
+a > img {
+	max-height: 16%;
+}
+
+#social_medias > h4 {
+	position: relative;
+	top: 65px;
+	/*left: 45%;*/
+	height: 20px;
+	text-align: center;
+	color: white;
+	font-size: 14px;
+}
+
+#social_medias > p {
+	position: relative;
+	top: 49px;
+	color: white;
+	/*left: 20%;*/
+	height: 20px;
+	text-align: center;
+	font-size: 11px;
+}
+
+#facebook_logo {
+	/*background-image: url("facebook.png");*/
+}
+
+#twitter_logo {
+	/*background-image: url("twitter.png");*/
+}
+
+#instagram_logo {
+	/*background-image: url("instagram.png");*/
+}
+
+#youtube_logo {
+	/*background-image: url("youtube.png");*/
+}
+
+#googleplus_logo {
+	/*background-image: url("googleplus.png");*/
+}
